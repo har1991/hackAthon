@@ -57,13 +57,15 @@ NOT RESET
     box-sizing: border-box;
 }
 
+html{
+    font-size: 20px;
+}
+
 header{
     background-color: #F6DF9F;
 }
 
 .logo{
-    height: 40px;
-    width: 64px;
     color: #FFF;
     font-family: "Zrnic Rg";
     font-size: 20px;
@@ -72,6 +74,11 @@ header{
     padding-top: 25px;
     padding-left: 17px;
 }
+
+.h_title{
+    color: #52AAA8;
+}
+
 
   .h_main_text{
     color: #4F6886;
@@ -84,7 +91,53 @@ header{
 
   }
 
+.h_div_img{
+    display: flex;
+    justify-content: center;
+}
+
   .h_img{
       margin-top: 14px;
       margin-bottom: 9px;
   }
+
+  .m_pour_demarrer{
+      margin-bottom: 2rem;
+}
+
+  .m_div_categories{
+      background-color: #52AAA8;
+      border-radius: 5px;
+      margin-top: 1.5rem;
+      margin-left: 3%;
+      margin-right: 3%;
+      color: white;
+      padding: 9px 0px;
+      padding-left: 25px;
+    
+  }
+
+  .m_card{
+    border-radius: 4px;
+    background-color: #F2F2F2;
+    box-shadow: 0 2px 3px 0 #828282;
+    margin-bottom: 1.4rem;
+  }
+
+  .m_card h1{
+      text-align: center;
+  }
+
+  .m_card div{
+      display: flex;
+      justify-content: center;
+  }
+
+
+
+/*************Footer **********/
+
+footer{
+    height: 7rem;
+    background-color: #F6DF9F;
+}
