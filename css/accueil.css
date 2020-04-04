@@ -53,6 +53,10 @@ table {
 NOT RESET
 **********************/
 
+*{
+    box-sizing: border-box;
+}
+
 header{
     background-color: #F6DF9F;
 }
@@ -65,13 +69,22 @@ header{
     font-size: 20px;
     line-height: 20px;
     text-shadow: 0 1px 1px 0 #BDBDBD;
-  }
+    padding-top: 25px;
+    padding-left: 17px;
+}
 
   .h_main_text{
-    height: 145px;
-    width: 319px;
     color: #4F6886;
     font-family: "Poppins SemiBold";
     font-size: 22px;
     line-height: 29px;
+    margin-top: 33px;
+    margin-left: 31px;
+    margin-right: 25px;
+
+  }
+
+  .h_img{
+      margin-top: 14px;
+      margin-bottom: 9px;
   }
